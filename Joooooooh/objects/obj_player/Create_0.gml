@@ -1,0 +1,12 @@
+vx = 0;
+vy = 0;
+player_speed = 2;
+timer = 0;
+state = "IDLE";
+sprite_walk = spr_player_up;
+sprite_attack = spr_player_attack_up;
+facing = 0;  // 0 - cima ; 1 - direita ; 2 - baixo ; 3 - esquerda ;
+iframes = 0;
+hp = 48;
+hp_containers = 6;
+hp_max_containers = 16; 
